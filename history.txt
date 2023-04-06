@@ -1,0 +1,105 @@
+  216  grep "France;PHP;2019" < wilders.csv | wc -l
+  217  grep France wilders.csv | grep 2019 | grep PHP | wc -l
+  218  grep France wilders.csv | grep 2019 | grep PHP | wc -l > php_france_2019.csv
+  219  cat php_france_2019.csv
+  220  grep Biarritz wilders.csv | grep Javascript > Javascript_biarritz.csv
+  221  head Javascript_biarritz.csv
+  222  head wilders
+  223  head wilders.csv
+  224  grep Biarritz wilders.csv | grep JavaScript > Javascript_biarritz.csv
+  225  grep Biarritz wilders.csv | grep JavaScript | sort -u > Javascript_biarritz.csv
+  226  cat Javascript_biarritz.csv
+  227  man sort
+  228  grep Biarritz wilders.csv | grep JavaScript | ls ~ > Javascript_biarritz.csv
+  229  cat
+  230  cat Javascript_biarritz.csv
+  231  clear
+  232  head wilders.csv
+  233  grep France wilders.csv | grep 2019 | grep PHP | wc -l > php_france_2019.csv
+  234  grep France wilders.csv | grep 2019 | grep PHP | wc -l
+  235  grep France wilders.csv | grep 2019 | grep PHP | wc -l > php_france_2019.csv
+  236  cat php_france_2019.csv
+  237  grep Biarritz wilders.csv | grep JavaScript | sort > Javascript_biarritz.csv
+  238  cat Javascript_biarritz.csv
+  239  grep Toulouse wilders.csv | grep JavaScript | sort > Javascript_toulouse.csv
+  240  cat Javascript_toulouse.csv
+  241  cat Javascript_biarritz.csv Javascript_toulouse.csv > javascript_biarritz_toulouse.csv
+  242  cat javascript_biarritz_toulouse.csv
+  243  history|tailLast login: Thu Apr  6 21:49:16 on ttys000
+  244  The default interactive shell is now zsh.
+  245  To update your account to use zsh, please run `chsh -s /bin/zsh`.
+  246  JavaScript
+  247  Thierry,Alexandre,Biarritz,France,2017,JavaScript
+  248  Victor,Lopez,Biarritz,France,2019,JavaScript
+  249  Vincent,Sanchez,Biarritz,France,2019,JavaScript
+  250  Yves,Marie,Biarritz,France,2019,JavaScript
+  251  Air-de-Mendes:~ Nina$ grep Toulouse wilders.csv | grep JavaScript | sort > Javascript_toulouse.csv
+  252  Air-de-Mendes:~ Nina$ cat Javascript_toulouse.csv
+  253  Agathe,Bazin,Toulouse,France,2017,JavaScript
+  254  Alexandre,"Da Silva",Toulouse,France,2019,JavaScript
+  255  Aurélie,Becker,Toulouse,France,2018,JavaScript
+  256  Céline,Fabre,Toulouse,France,2019,JavaScript
+  257  Claude,Samson,Toulouse,France,2019,JavaScript
+  258  Danielle,Lecomte,Toulouse,France,2019,JavaScript
+  259  Danielle,Perrin,Toulouse,France,2019,JavaScript
+  260  Éric,Meunier,Toulouse,France,2019,JavaScript
+  261  Henri,Guilbert,Toulouse,France,2018,JavaScript
+  262  Maryse,Allain,Toulouse,France,2018,JavaScript
+  263  Mathilde,Descamps,Toulouse,France,2019,JavaScript
+  264  Maurice,Munoz,Toulouse,France,2017,JavaScript
+  265  Michèle,Traore,Toulouse,France,2017,JavaScript
+  266  Noël,Noel,Toulouse,France,2019,JavaScript
+  267  Olivier,Dufour,Toulouse,France,2018,JavaScript
+  268  Philippe,Paris,Toulouse,France,2018,JavaScript
+  269  Raymond,Bouvet,Toulouse,France,2019,JavaScript
+  270  Théodore,Gerard,Toulouse,France,2018,JavaScript
+  271  Timothée,Henry,Toulouse,France,2018,JavaScript
+  272  Air-de-Mendes:~ Nina$ cat Javascript_biarritz.csv Javascript_toulouse.csv > javascript_biarritz_toulouse.csv
+  273  Air-de-Mendes:~ Nina$ cat javascript_biarritz_toulouse.csv
+  274  Alfred,"Da Silva",Biarritz,France,2018,JavaScript
+  275  Alphonse,Leleu,Biarritz,France,2019,JavaScript
+  276  Andrée,Berthelot,Biarritz,France,2019,JavaScript
+  277  Arthur,Bruneau,Biarritz,France,2018,JavaScript
+  278  Benjamin,Tanguy,Biarritz,France,2018,JavaScript
+  279  Chantal,Caron,Biarritz,France,2017,JavaScript
+  280  Charlotte,Roche,Biarritz,France,2018,JavaScript
+  281  Christelle,Vallet,Biarritz,France,2017,JavaScript
+  282  Colette,Bouvier,Biarritz,France,2018,JavaScript
+  283  Daniel,Roy,Biarritz,France,2017,JavaScript
+  284  Édith,Turpin,Biarritz,France,2017,JavaScript
+  285  Emmanuelle,Mercier,Biarritz,France,2017,JavaScript
+  286  Laetitia,Schneider,Biarritz,France,2019,JavaScript
+  287  Laurence,Lemaire,Biarritz,France,2019,JavaScript
+  288  Léon,Jacquet,Biarritz,France,2019,JavaScript
+  289  Marcel,Olivier,Biarritz,France,2019,JavaScript
+  290  Michel,David,Biarritz,France,2019,JavaScript
+  291  Pénélope,Paris,Biarritz,France,2017,JavaScript
+  292  Sébastien,Ferreira,Biarritz,France,2018,JavaScript
+  293  Théodore,Bousquet,Biarritz,France,2019,JavaScript
+  294  Théodore,Regnier,Biarritz,France,2018,JavaScript
+  295  Thérèse,Guyot,Biarritz,France,2019,JavaScript
+  296  Thierry,Alexandre,Biarritz,France,2017,JavaScript
+  297  Victor,Lopez,Biarritz,France,2019,JavaScript
+  298  Vincent,Sanchez,Biarritz,France,2019,JavaScript
+  299  Yves,Marie,Biarritz,France,2019,JavaScript
+  300  Agathe,Bazin,Toulouse,France,2017,JavaScript
+  301  Alexandre,"Da Silva",Toulouse,France,2019,JavaScript
+  302  Aurélie,Becker,Toulouse,France,2018,JavaScript
+  303  Céline,Fabre,Toulouse,France,2019,JavaScript
+  304  Claude,Samson,Toulouse,France,2019,JavaScript
+  305  Danielle,Lecomte,Toulouse,France,2019,JavaScript
+  306  Danielle,Perrin,Toulouse,France,2019,JavaScript
+  307  Éric,Meunier,Toulouse,France,2019,JavaScript
+  308  Henri,Guilbert,Toulouse,France,2018,JavaScript
+  309  Maryse,Allain,Toulouse,France,2018,JavaScript
+  310  Mathilde,Descamps,Toulouse,France,2019,JavaScript
+  311  Maurice,Munoz,Toulouse,France,2017,JavaScript
+  312  Michèle,Traore,Toulouse,France,2017,JavaScript
+  313  Noël,Noel,Toulouse,France,2019,JavaScript
+  314  Olivier,Dufour,Toulouse,France,2018,JavaScript
+  315  Philippe,Paris,Toulouse,France,2018,JavaScript
+  316  Raymond,Bouvet,Toulouse,France,2019,JavaScript
+  317  Théodore,Gerard,Toulouse,France,2018,JavaScript
+  318  Timothée,Henry,Toulouse,France,2018,JavaScript
+  319  Air-de-Mendes:~ Nina$ history|tail
+  320  history > history1.txt
